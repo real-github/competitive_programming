@@ -2,10 +2,10 @@
 競プロのリンク，JOIの問題集，問題ごとにファイルをつくるプログラムなどを置いてます。
 
 
-# 競プロのリンク
+## 競プロのリンク
 
 
-## External links
+### External links
 
 - [apg4b - AtCoder](https://atcoder.jp/contests/APG4b)      
 - [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)     
@@ -14,20 +14,20 @@
 - [c++ 入門](https://kaworu.jpn.org/cpp/メインページ)
 
 
-## Educational links
+### Educational links
 - [cpp-temolate tips](https://github.com/kurokoji/.cpp-Template/wiki)      
 - [ワンランク上に行くプロコン講座 - YouTube](https://www.youtube.com/watch?v=_Je4rukUcqE)   
 - [各種アルゴリズムのc++による実装](http://www.prefield.com/algorithm/)
 - [江添亮のC++入門](https://ezoeryou.github.io/cpp-intro/#cヒッチハイクガイド)
 
-## Other people's libraries
+### Other people's libraries
 
 - [KoD](https://github.com/KodamaD/Competitive_Programming_Libraries)
 
 - [ei1333](https://github.com/ei1333/library)
 
 
-# JOIの問題集
+## JOIの問題集
 動的計画法で解く問題を集めました。JOIに挑むにあたってDPを極めたい方，どうぞ。
 
 | dp                                                                              	|
