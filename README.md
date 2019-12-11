@@ -24,3 +24,24 @@
 | [お土産購入計画](https://atcoder.jp/contests/joi2013yo/tasks/joi2013yo_f)           |       	
 | [ジグザグ数](https://atcoder.jp/contests/joi2012yo/tasks/joi2012yo_f)               |      
 
+
+## External links
+
+- [apg4b - AtCoder](https://atcoder.jp/contests/APG4b)      
+- [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)     
+- [JOI 過去問表](https://beta-joi.goodbaton.com/)    
+- [cpprefjp リファレンス](https://cpprefjp.github.io/reference.html)   
+- [c++ 入門](https://kaworu.jpn.org/cpp/メインページ)
+
+
+## Educational links
+- [cpp-temolate tips](https://github.com/kurokoji/.cpp-Template/wiki)      
+- [ワンランク上に行くプロコン講座 - YouTube](https://www.youtube.com/watch?v=_Je4rukUcqE)   
+- [各種アルゴリズムのc++による実装](http://www.prefield.com/algorithm/)
+- [江添亮のC++入門](https://ezoeryou.github.io/cpp-intro/#cヒッチハイクガイド)
+
+## Other people's libraries
+
+- [KoD](https://github.com/KodamaD/Competitive_Programming_Libraries)
+
+- [ei1333](https://github.com/ei1333/library)
