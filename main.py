@@ -23,7 +23,7 @@ def cpp_generate_dump(cnt, dir_name):
 
 def main():
   dir_name = input("directory name: ")
-  cnt = input("Enter the number of files to create(e.g. 4, 5) OR a specific task name(e.g. A, B, Coins): ")
+  cnt = input("Enter the number of files to create(e.g. 4, 5) OR a specific word(e.g. A, B, Coins): ")
   if (cnt.isdecimal()):
     count = int(cnt)
   
@@ -31,7 +31,7 @@ def main():
   if (cnt.isdecimal()):
     os.mkdir(dir_name)
     os.chdir(dir_name)
-    gen_type = str(input("way of generating the directory[each,e/dump,d]: "))
+    gen_type = str(input("[each,e/dump,d]: "))
     if (gen_type == "each" or gen_type == "e"):
       file_generate_each(count)
       cpp_generate_each(count, dir_name)
