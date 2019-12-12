@@ -1,4 +1,3 @@
-# competitive_programming
 競プロのリンク，JOIの問題集，問題ごとにファイルをつくるプログラムなどを置いてます。
 
 
