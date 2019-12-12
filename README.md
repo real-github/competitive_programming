@@ -34,7 +34,6 @@
 
 ### Educational links
 - [cpp-temolate tips](https://github.com/kurokoji/.cpp-Template/wiki)      
-- [ワンランク上に行くプロコン講座 - YouTube](https://www.youtube.com/watch?v=_Je4rukUcqE)   
 - [各種アルゴリズムのc++による実装](http://www.prefield.com/algorithm/)
 - [江添亮のC++入門](https://ezoeryou.github.io/cpp-intro/#cヒッチハイクガイド)
 
