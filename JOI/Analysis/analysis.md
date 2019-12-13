@@ -18,6 +18,7 @@
 
 link: [JOI - シラバス](https://www.ioi-jp.org/ioi/ioi-syllabus_jp.pdf)    
 link: [IOI - シラバス](https://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus-2017.pdf)    
+link: [自分がJOIシラバスをそれぞれ分類分けしたmd](https://github.com/real-github/competitive_programming/tree/master/JOI/Syllabus)
    
 ## 本選招待者の決定方法
 
