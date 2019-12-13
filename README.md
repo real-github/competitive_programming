@@ -22,8 +22,10 @@
 
 ## 競プロのリンク
 
-
-### External links
+### Internal Links
+- [JOIシラバス](https://github.com/real-github/competitive_programming/tree/master/JOI/Syllabus)
+- [JOI分析(情報を集めただけ)](https://github.com/real-github/competitive_programming/tree/master/JOI/Analysis)
+### External Links
 
 - [apg4b - AtCoder](https://atcoder.jp/contests/APG4b)      
 - [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)     
@@ -32,12 +34,12 @@
 - [c++ 入門](https://kaworu.jpn.org/cpp/メインページ)
 
 
-### Educational links
+### Educational Links
 - [cpp-temolate tips](https://github.com/kurokoji/.cpp-Template/wiki)      
 - [各種アルゴリズムのc++による実装](http://www.prefield.com/algorithm/)
 - [江添亮のC++入門](https://ezoeryou.github.io/cpp-intro/#cヒッチハイクガイド)
 
-### Other people's libraries
+### Other People's Libraries
 
 - [KoD](https://github.com/KodamaD/Competitive_Programming_Libraries)
 
