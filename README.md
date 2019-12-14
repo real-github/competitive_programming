@@ -27,12 +27,14 @@
 - [JOI分析(情報を集めただけ)](https://github.com/real-github/competitive_programming/tree/master/JOI/Analysis)
 ### External Links
 
-- [apg4b - AtCoder](https://atcoder.jp/contests/APG4b)      
-- [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)     
+
+- [apg4b - AtCoder](https://atcoder.jp/contests/APG4b)  
+- [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/)
+- [AtCoder Tags](https://atcoder-tags.herokuapp.com/)
 - [JOI 過去問表](https://beta-joi.goodbaton.com/)    
+- [はまやんはまやんはまやんさんの競技プログラミング練習問題集](https://www.hamayanhamayan.com/entry/2100/01/01/000000)
 - [cpprefjp リファレンス](https://cpprefjp.github.io/reference.html)   
 - [c++ 入門](https://kaworu.jpn.org/cpp/メインページ)
-
 
 ### Educational Links
 - [cpp-temolate tips](https://github.com/kurokoji/.cpp-Template/wiki)      
