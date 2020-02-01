@@ -56,7 +56,6 @@ def main():
   dir_list = os.listdir()
   dir_list.sort()
   Reopen()
-  Reopen()
   print('[>] number of files: {} == '.format(number_of_files), end="")
   print(dir_list)
   os.chdir("../")
