@@ -55,9 +55,9 @@ def main():
   global dir_list
   dir_list = os.listdir()
   dir_list.sort()
-  Reopen()
-  print('[>] number of files: {} == '.format(number_of_files), end="")
+  print('[>] number of files: {}'.format(number_of_files), end="")
   print(dir_list)
+  Reopen()
   os.chdir("../")
   sys.exit('\n[>>] ' + "Successfully Generated")
   
