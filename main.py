@@ -1,46 +1,66 @@
+#!/usr/bin/python
+import sys
 import os
+import getopt
 import shutil
+import time
 
-def file_generate_each(cnt):
+dir_list = []
+
+def GenerateProblem(cnt):
   for i in range(0, cnt):
     string = str(chr(i+97))
     os.mkdir(string)
-  return 0
-
-def cpp_generate_each(cnt, dir_name):
-  for i in range(0, cnt):
-    os.chdir(str(chr(i+97)))
-    # shutil.copy("../../../Library/template.cpp", str(dir_name) + "_" + str(chr(i+97)) + ".cpp")
-    # ↑ this generates a file like "abc149_a.cpp"
+    os.chdir(string)
     shutil.copy("../../../Library/template.cpp", "main.cpp")
-    os.chdir('..')
+    os.system("open main.cpp")
+    os.chdir('../')
   return 0
 
-def cpp_generate_dump(cnt, dir_name):
-  for i in range(0, cnt):
-    shutil.copy("../../Library/template.cpp", str(dir_name) + "_" + str(chr(i+97)) + ".cpp")
-  return 0
-
-def main():
-  dir_name = input("directory name: ")
-  cnt = input("Enter the number of files to create(e.g. 4, 5) OR a specific word(e.g. A, B, Coins): ")
-  if (cnt.isdecimal()):
-    count = int(cnt)
+def Reopen():
+  global dir_list
+  for dirName in dir_list:
+    os.chdir(dirName)
+    os.system("open main.cpp")
+    os.chdir("../")
+    time.sleep(0.7)
   
 
-  if (cnt.isdecimal()):
-    os.mkdir(dir_name)
-    os.chdir(dir_name)
-    gen_type = str(input("[each,e/dump,d]: "))
-    if (gen_type == "each" or gen_type == "e"):
-      file_generate_each(count)
-      cpp_generate_each(count, dir_name)
-    elif (gen_type == "dump" or gen_type == "d"):
-      cpp_generate_dump(count, dir_name)
-  else:
-    os.mkdir(str(dir_name) + "_" + cnt)
-    os.chdir(str(dir_name) + "_" + cnt)
-    shutil.copy("../../Library/template.cpp", "main.cpp")
-  return 0
+def main():
+  directory_name = None
+  number_of_files = None
+  argv = sys.argv[1:]
+  try:
+    (opts, args) = getopt.getopt(argv, "c:n:", ["contest=", "number="])
+  except getopt.GetoptError as err:
+    print(err)
+    opts = []
 
-main()
+  for (opt, arg) in opts:
+    if opt in ['-c', '--contest']:
+      directory_name = arg
+    elif opt in ['-n', '--number']:
+      number_of_files = int(arg)
+
+  if (os.path.isdir(directory_name) == False):
+    os.mkdir(directory_name)
+  else:
+    sys.exit('\n[>>] ' + "Invalid Directory Name")
+  
+  os.chdir(directory_name)
+  GenerateProblem(number_of_files)
+  # opening file
+  print('\n[>] directory name: {}'.format(directory_name))
+  time.sleep(17) #for activation purpose
+  global dir_list
+  dir_list = os.listdir()
+  dir_list.sort()
+  Reopen()
+  Reopen()
+  print('[>] number of files: {} == '.format(number_of_files), end="")
+  print(dir_list)
+  os.chdir("../")
+  sys.exit('\n[>>] ' + "Successfully Generated")
+  
+if __name__ == '__main__':
+  main()
